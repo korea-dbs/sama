@@ -38,17 +38,31 @@ sudo make install -j
 ## Run
 4. Make Overflow DB
    Generate a dump.sql file from the original (vanilla) database that you want to separate into an overflow database.
-   ```
-   vanilla_sqlite3[!!this is vanilla_sqlite!!] dump > dump.sql
-   ```
 ```
-./sqlite3 [PATH TO DB file]
+vanilla_sqlite3[!!this sqlite engine is vanilla_sqlite!!] dump > dump.sql
 ```
+
+5. Prepare new db
+```
+vanilla_sqlite3 [new DB file(.db)]
+PRAGMA journal_mode = WAL;
+.quit
+```
+
+
+6. Read dump
+```
+cd [path to ovfl_sqlite bld dir]
+./sqlite3 [new DB file(.db)]
+.read dump.sql[Path to dump.sql]
+```
+The new.db now contains the same data as the vanilla database, but its structure has been modified to store overflow pages separately. 
+To run regular queries, simply launch SQLite using ovfl_sqlite with the new.db file, and execute queries in the same way as before.
 
 
 ## Contact
 
 Jonghyeok Park jonghyeok_park@korea.ac.kr  
-Yewon Shin syw22@hufs.ac.kr
-
+Dohwan Lee dohwan0123@hufs.ac.kr
+Dongkyun Chung cdk6042@korea.ac.kr
 
