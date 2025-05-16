@@ -52,7 +52,7 @@ SAMA comprises two main components: a web-based dashboard and a benchmark backen
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/hufs-ids/sambench.git
+   git clone [https://github.com/korea-dbs/sama.git]
    cd sambench
    ```
 
@@ -117,7 +117,7 @@ http://localhost:3002
 
 ## Demonstration
 
-SAMBench was demonstrated using a Google Pixel 7, showcasing its ability to construct realistic experimental environments and evaluate SQLite's performance under diverse conditions such as media file types and storage fragmentation.
+SAMA was demonstrated using a Google Pixel 7, showcasing its ability to construct realistic experimental environments and evaluate SQLite's performance under diverse conditions such as media file types and storage fragmentation.
 
 ## License
 
