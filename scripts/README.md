@@ -2,7 +2,7 @@
 
 ### Prerequisites
 - **Python** (Python 3.8.10 [Python Download Link](https://www.python.org/downloads/release/python-3810/))
-- 
+
 ## SQLite Analyzer.py
 ### Features
 This tool provides information about the pages in a database file.
