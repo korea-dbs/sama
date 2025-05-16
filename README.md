@@ -28,7 +28,8 @@ SAMA is a comprehensive Analyzing tool designed to analyze the performance of SQ
 
 SAMA comprises two main components: a web-based dashboard and a benchmark backend. The dashboard facilitates configuration management, query execution, and interactive analysis. The backend handles API requests, executes commands on Android devices via adb, and collects performance metrics for analysis.
 
-![sama](https://github.com/user-attachments/assets/5e121720-1d69-4657-955d-3b96e16651ef)
+
+![sama](https://github.com/user-attachments/assets/4ea9c1ad-9f50-47b4-909d-c97c2c973f12)
 
 
 ## Getting Started
