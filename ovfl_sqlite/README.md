@@ -6,28 +6,14 @@ In this version, a specialized controller is implemented to manage overflow page
 
 ## Features
 
-- **Automatic WAL File Uploads**:  
-  The project uses SQLite's `sqlite3_wal_hook` to detect changes in the WAL file and uploads the updated WAL file to a specified AWS S3 bucket.
-  
-- **SQL Statement Uploads**:  
-  In addition to WAL file synchronization, this project also allows uploading SQL statements to an S3 bucket for further analysis or recovery purposes.
+- **Large Payload Controller**:
+  The Large Payload Controller enables the separation of regular pages and overflow pages, allowing them to be stored in different storage devices.
+- **Wal Frame header**:
+  The WAL frame header stores both the large payload page number and the regular database page number, and provides the correct mapping between them when the data is needed.
 
-- **Seamless Integration with SQLite**:  
-  The project is designed to work directly with SQLite, enabling transparent and efficient integration without modifying the core database engine.
 
-- **Recovery Script with WAL**:  
-  A specialized Python script for downloading WAL files from different AWS storage options and applying checkpoints.
-
-- **Recovery Script with SQL Statement**:  
-  A Python script that downloads SQL logs from S3 and executes them to recover database state.
 
 ## Getting Started
-
-### Prerequisites
-- **SQLite** (latest version from [SQLite GitHub Repository](https://github.com/sqlite/sqlite))
-- **Python** (Python 3.8.10 [Python Download Link](https://www.python.org/downloads/release/python-3810/))
-- **AWS C Library** [libs3](https://github.com/bji/libs3)
-- **boto3 Library** [boto3](https://github.com/boto/boto3)
 
 ### Build
 1. Install the AWS C Library
