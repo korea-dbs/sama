@@ -1,6 +1,6 @@
 # SCRIPTS 
-##SQLite Analyzer.py
-###Explain
+## SQLite Analyzer.py
+### Explain
 This tool provides information about the pages in a database file.
 The list of page types displayed by the tool includes:
 
@@ -35,7 +35,7 @@ They are linked from the trunk page.
 Freelist Map Page
 This page manages a bitmap or mapping of free pages.
 It provides a compact overview of available pages in the freelist.
-###usage
+### Usage
 ```
 python3 SQLiteAnalyzer.py example.db
 ```
