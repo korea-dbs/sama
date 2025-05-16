@@ -9,14 +9,14 @@ SAMA offers intuitive web-based dashboards and allows users to evaluate media ac
 SAMA is a comprehensive Analyzing tool designed to analyze the performance of SQLite database systems with a focus on media access in Android environments. Developed by researchers from Korea University and Samsung Electronics, this tool addresses the gap in understanding media access's impact on SQLite performance within Android systems. By leveraging media access queries collected from real Android applications, SAMA offers a nuanced analysis through interactive web-based dashboards, enabling users to evaluate media access performance under various configurations.
 
 ## Authors
-- 
-- Dohwan Lee
+- Dongkyun Chung (Korea University) - <cdk6042@korea.ac.kr>
+- Dohwan Lee (Hankuk University of Foreign Studies) - <dohwan0123@hufs.ac.kr>
 - Jisub Kim (Hankuk University of Foreign Studies) - <0226daniel@hufs.ac.kr>
 - Sehyun Park (Hankuk University of Foreign Studies) - <sarah1918@hufs.ac.kr>
 - Hyeeun Jun (Samsung Electronics) - <hyeeun.jun@samsung.com>
 - Kisung Lee (Samsung Electronics) - <kiras.lee@samsung.com>
 - Woojoong Lee (Samsung Electronics) - <woojoong.lee@samsung.com>
-- Jonghyeok Park (Hankuk University of Foreign Studies) - <jonghyeok.park@hufs.ac.kr>
+- Jonghyeok Park (Korea University) - <jonghyeok_park@korea.ac.kr>
 
 ## Features
 
