@@ -31,3 +31,10 @@ It provides a compact overview of available pages in the freelist.
 ```
 python3 SQLiteAnalyzer.py example.db
 ```
+
+## vdbe_parser.py
+### Explain
+### Usage
+```
+python3 vdbe_parser.py vdbe_profile.out
+```
