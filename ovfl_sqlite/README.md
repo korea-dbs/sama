@@ -63,6 +63,8 @@ To run regular queries, simply launch SQLite using ovfl_sqlite with the new.db f
 ## Contact
 
 Jonghyeok Park jonghyeok_park@korea.ac.kr  
+
 Dohwan Lee dohwan0123@hufs.ac.kr
+
 Dongkyun Chung cdk6042@korea.ac.kr
 
