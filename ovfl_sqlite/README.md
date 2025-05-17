@@ -39,7 +39,7 @@ sudo make install -j
 4. Make Overflow DB
    Generate a dump.sql file from the original (vanilla) database that you want to separate into an overflow database.
 ```
-vanilla_sqlite3[!!this sqlite engine is vanilla_sqlite!!] dump > dump.sql
+vanilla_sqlite3[this sqlite engine is vanilla_sqlite] dump > dump.sql
 ```
 
 5. Prepare new db
