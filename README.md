@@ -12,7 +12,6 @@ SAMA is a comprehensive Analyzing tool designed to analyze the performance of SQ
 - Dongkyun Chung (Korea University) - <cdk6042@korea.ac.kr>
 - Dohwan Lee (Hankuk University of Foreign Studies) - <dohwan0123@hufs.ac.kr>
 - Jisub Kim (Hankuk University of Foreign Studies) - <0226daniel@hufs.ac.kr>
-- Sehyun Park (Hankuk University of Foreign Studies) - <sarah1918@hufs.ac.kr>
 - Hyeeun Jun (Samsung Electronics) - <hyeeun.jun@samsung.com>
 - Kisung Lee (Samsung Electronics) - <kiras.lee@samsung.com>
 - Woojoong Lee (Samsung Electronics) - <woojoong.lee@samsung.com>
