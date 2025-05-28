@@ -125,7 +125,7 @@ This work is licensed under the MIT License. See [LICENSE](LICENSE) for more inf
 
 ## Acknowledgments
 
-- This project is a collaborative effort between Hankuk University of Foreign Studies and Samsung Electronics.
+- This project is a collaborative effort between Hankuk University of Foreign Studies, Korea University and Samsung Electronics.
 - Special thanks to all contributors and the open-source community for making this project possible.
 
 ## Contact
