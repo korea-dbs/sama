@@ -120,8 +120,12 @@ http://localhost:3002
 SAMA was demonstrated using a Google Pixel 7, showcasing its ability to construct realistic experimental environments and evaluate SQLite's performance under diverse conditions such as media file types and storage fragmentation.
 
 
-# OVFL-SQLite
 
+
+
+
+
+# OVFL-SQLite
 
 ovfl-sqlite is an optimized version designed to handle overflow pages efficiently.
 In this version, a specialized controller is implemented to manage overflow pages, aiming to improve performance for databases that contain a large number of such pages.
@@ -133,8 +137,6 @@ In this version, a specialized controller is implemented to manage overflow page
 - **Wal Frame header**:
   The WAL frame header stores both the large payload page number and the regular database page number, and provides the correct mapping between them when the data is needed.
 
-
-
 ## Getting Started
 
 ### Build
@@ -142,7 +144,6 @@ In this version, a specialized controller is implemented to manage overflow page
 ```
 [git clone https://github.com/korea-dbs/sama.git]
 ```
-
 
 2. Configure
 ```
