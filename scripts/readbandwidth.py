@@ -18,17 +18,17 @@ def parse_log_and_calc_bandwidth(file_path):
                 total_bytes += sectors * 512  # sector 크기는 512 byte
 
     if not timestamps:
-        print("block_rq_issue 이벤트가 없습니다.")
+        print("block_rq_issue there is no event.")
         return
 
     duration = max(timestamps) - min(timestamps)
     if duration == 0:
-        print("시간 간격이 0입니다.")
+        print("time interval 0.")
         return
 
     bandwidth_MBps = total_bytes / duration / (1024 * 1024)
-    print(f"총 전송 바이트: {total_bytes} bytes")
-    print(f"시간 구간: {duration:.6f} 초")
+    print(f"total byte: {total_bytes} bytes")
+    print(f"time interval: {duration:.6f} 초")
     print(f"Bandwidth: {bandwidth_MBps:.2f} MB/s")
 
 # 사용 예시
