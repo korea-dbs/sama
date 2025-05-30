@@ -78,3 +78,12 @@ This script measures the I/O read operation bandwidth from an ftrace log collect
 ```
 python3 readbandwidth.py test.txt[ftrace log file]
 ```
+## 5.adbovfl.sh | adbquery.sh
+### Features
+ 
+This script generates an ftrace log while running a target query on an Android device and summarizes the execution time of the query.
+### Usage in Android device
+```
+sh adbquery.sh [DB Path] [ target query Path] [ftrace file name]
+sh adbovfl.sh [overflow DB Path] [ target query Path] [ftrace file name]
+```
