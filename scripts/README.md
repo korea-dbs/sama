@@ -69,3 +69,12 @@ P99 Distance: 266048691
 Max Distance: 286662496
 Average Distance: 20698626
 ```
+## readbandwidth.py
+### Features
+A tool that calculate IO read bandwidth from a `ftrace` file 
+
+This script measures the I/O read operation bandwidth from an ftrace log collected during query execution on an Android device.
+### Usage
+```
+python3 readbandwidth.py test.txt[ftrace log file]
+```
