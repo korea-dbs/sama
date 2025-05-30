@@ -3,7 +3,7 @@
 ### Prerequisites
 - **Python** (Python 3.8.10 [Python Download Link](https://www.python.org/downloads/release/python-3810/))
 
-## SQLite Analyzer.py
+## 1.SQLite Analyzer.py
 ### Features
 This tool provides information about the pages in a database file.
 The list of page types displayed by the tool includes:
@@ -36,7 +36,7 @@ It provides a compact overview of available pages in the freelist.
 python3 SQLiteAnalyzer.py example.db
 ```
 
-## vdbe_parser.py
+## 2.vdbe_parser.py
 ### Features
 A tool that parses operations from a `vdbe_profile.out` file and exports them into a `.csv` file.
 
@@ -46,7 +46,7 @@ This tool reads a vdbe_profile.out file, which contains profiling information fr
 python3 vdbe_parser.py vdbe_profile.out
 ```
 
-## iolog.py
+## 3.iolog.py
 ### Features
 A tool that calculate IO operation from a `ftrace` file 
 
@@ -69,7 +69,7 @@ P99 Distance: 266048691
 Max Distance: 286662496
 Average Distance: 20698626
 ```
-## readbandwidth.py
+## 4.readbandwidth.py
 ### Features
 A tool that calculate IO read bandwidth from a `ftrace` file 
 
