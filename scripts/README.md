@@ -45,3 +45,27 @@ This tool reads a vdbe_profile.out file, which contains profiling information fr
 ```
 python3 vdbe_parser.py vdbe_profile.out
 ```
+
+## iolog.py
+### Features
+A tool that calculate IO operation from a `ftrace` file 
+
+This script measures the I/O operation latency and disk seek distance from an ftrace log collected during query execution on an Android device.
+### Usage
+```
+python3 iolog.py test.txt[ftrace log file]
+```
+### Result Example
+```
+== Tail Latency Statistics ==
+P95 Latency: 2.550 ms
+P99 Latency: 3.118 ms
+Max Latency: 3.282 ms
+Average Latency: 0.87 ms
+
+== Tail Distance Statistics ==
+P95 Distance: 234130605
+P99 Distance: 266048691
+Max Distance: 286662496
+Average Distance: 20698626
+```
