@@ -111,13 +111,13 @@ http://localhost:3002
 
 ### Usage
 
-- **Configuration Management**: Set up your benchmark configurations using the dashboard, specifying parameters such as media file types and system load.
-- **Query Execution**: Execute media access queries on your Android device, modifying conditions and configurations as needed.
-- **Interactive Analysis**: Analyze the benchmark results through the dashboard, comparing various performance metrics across different configurations.
+- **Configuration Management**: Set up your benchmark configurations using the dashboard, and specify parameters such as media file types and system load.
+- **Query Execution**: Execute media access queries on your Android device, and modify conditions and configurations as needed.
+- **Interactive Analysis**: Analyze the benchmark results through the dashboard, and compare various performance metrics across different configurations.
 
 ## Demonstration
 
-SAMA was demonstrated using a Google Pixel 7, showcasing its ability to construct realistic experimental environments and evaluate SQLite's performance under diverse conditions such as media file types and storage fragmentation.
+SAMA was demonstrated using a Google Pixel 7, and showcased its ability to construct realistic experimental environments. The model evaluates SQLite's performance under diverse conditions such as media file types and storage fragmentation.
 
 
 

@@ -6,31 +6,32 @@
 ## 1.SQLite Analyzer.py
 ### Features
 This tool provides information about the pages in a database file.
-The list of page types displayed by the tool includes:
+
+Here are the types of displayed page:
 
 - Table Interior Page
-These are internal nodes in the B-tree structure of a table.
+Internal nodes in the B-tree structure of a table.
 
 - Table Leaf Page
-These are leaf nodes in the table's B-tree structure.
+Leaf nodes in the table's B-tree structure.
 
 - Index Interior Page
-These are internal nodes in an index B-tree.
+Internal nodes in an index B-tree.
 
 - Index Leaf Page
-These are the leaf nodes of the index B-tree.
+Leaf nodes of the index B-tree.
 
 - Overflow Page
-Used when a row or index entry is too large to fit in a single page.
+This page is used when a row or index entry is too large to fit in a single page.
 
 - Freelist Trunk Page
-These pages are part of the freelist, which tracks unused pages.
+This page is a part of the freelist, which tracks unused pages.
 
 - Freelist Leaf Page
-These contain references to free (unused) pages in the database.
+This page contains references to free (unused) pages in the database.
 
 - Freelist Map Page
-It provides a compact overview of available pages in the freelist.
+This page provides a compact overview of available pages in the freelist.
 ### Usage
 ```
 python3 SQLiteAnalyzer.py example.db
@@ -38,9 +39,10 @@ python3 SQLiteAnalyzer.py example.db
 
 ## 2.vdbe_parser.py
 ### Features
-A tool that parses operations from a `vdbe_profile.out` file and exports them into a `.csv` file.
+Parses operations from a `vdbe_profile.out` file and exports them into a `.csv` file.
 
-This tool reads a vdbe_profile.out file, which contains profiling information from the SQLite Virtual Database Engine (VDBE), and extracts detailed operation records. It then converts and outputs the parsed data into a structured CSV format, making it easier to analyze and visualize VDBE execution performance.
+This tool reads a vdbe_profile.out file, which contains profiling information from the SQLite Virtual Database Engine (VDBE), and extracts detailed operation records. 
+The extracted data will be converted to a structured CSV format for easier analysis and visualization of VDBE execution performance.
 ### Usage
 ```
 python3 vdbe_parser.py vdbe_profile.out
@@ -48,9 +50,9 @@ python3 vdbe_parser.py vdbe_profile.out
 
 ## 3.iolog.py
 ### Features
-A tool that calculate IO operation from a `ftrace` file 
+Calculates IO operation from a `ftrace` file 
 
-This script measures the I/O operation latency and disk seek distance from an ftrace log collected during query execution on an Android device.
+This script measures I/O operation latency and disk seek distance with generated ftrace log. The log is generated during Android device's query execution.
 ### Usage
 ```
 python3 iolog.py test.txt[ftrace log file]
@@ -71,9 +73,9 @@ Average Distance: 20698626
 ```
 ## 4.readbandwidth.py
 ### Features
-A tool that calculate IO read bandwidth from a `ftrace` file 
+Calculates IO read bandwidth from a `ftrace` file 
 
-This script measures the I/O read operation bandwidth from an ftrace log collected during query execution on an Android device.
+This script measures the I/O read operation bandwidth from an ftrace log. The log is generated from Android device's query execution.
 ### Usage
 ```
 python3 readbandwidth.py test.txt[ftrace log file]
@@ -81,7 +83,8 @@ python3 readbandwidth.py test.txt[ftrace log file]
 ## 5.adbovfl.sh | adbquery.sh
 ### Features
  
-This script generates an ftrace log while running a target query on an Android device and summarizes the execution time of the query.
+This script generates an ftrace log while running a target query on an Android device and summarizes the query execution time data.
+
 ### Usage in Android device
 ```
 sh adbquery.sh [DB Path] [ target query Path] [ftrace file name]
